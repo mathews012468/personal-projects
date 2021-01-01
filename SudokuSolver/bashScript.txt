@@ -1,0 +1,5 @@
+eval "g++ writeToFile.cpp -std=c++11"
+eval "./a.out"
+eval "/usr/local/Cellar/cvc4/1.7/bin/cvc4 sudoku2.smt2 > output.txt"
+eval "g++ outputToGrid.cpp -std=c++11"
+eval "./a.out"
